@@ -3,7 +3,6 @@ elements = ""
 
 # Given a lowercase string and a list of element symbols returns all possible elemental compositions
 def recursive_decompose(w,e):
-    print(w)
     if len(w) == 0:
         return []
     if len(w) == 1:
